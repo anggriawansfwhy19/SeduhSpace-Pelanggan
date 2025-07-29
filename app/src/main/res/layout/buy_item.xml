@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="8dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:strokeColor="#10000000"
+        app:strokeWidth="0.5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <!-- Image with elegant border -->
+            <FrameLayout
+                android:id="@+id/buyyy"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/buyImage"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/menu2"
+                    android:background="@drawable/circle_bg_white"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_green_stroke"/>
+            </FrameLayout>
+
+            <!-- Text content -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/buyyy"
+                app:layout_constraintEnd_toStartOf="@+id/buyAgainButton"
+                app:layout_constraintStart_toEndOf="@+id/buyyy"
+                app:layout_constraintTop_toTopOf="@+id/buyyy">
+
+                <TextView
+                    android:id="@+id/buyCoffeeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/coffee_name"
+                    android:textColor="#2D2D2D"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.02"
+                    android:shadowColor="#10000000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2" />
+
+                <TextView
+                    android:id="@+id/buyCoffeePrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="24.000"
+                    android:textColor="@color/blackPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#1B5E20" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="MENU BY SEDUH SPACE"
+                    android:textColor="#80000000"
+                    android:textSize="10sp"
+                    android:drawablePadding="4dp"/>
+            </LinearLayout>
+
+            <!-- Premium Buy Again Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buyAgainButton"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/buy_again"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:cornerRadius="18dp"
+                app:icon="@drawable/ic_premium_bag"
+                app:iconGravity="textStart"
+                app:iconPadding="4dp"
+                app:iconSize="18dp"
+                app:iconTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:backgroundTint="#2E7D32"
+                app:rippleColor="#1B5E20"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

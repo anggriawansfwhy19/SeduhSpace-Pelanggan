@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State saat ditekan -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="18dp" />
+            <solid android:color="@color/brownPrimary" />  <!-- Warna lebih gelap saat diklik -->
+        </shape>
+    </item>
+    <!-- State normal -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="18dp" />
+            <solid android:color="@color/BlueColor" />  <!-- Warna biru normal -->
+        </shape>
+    </item>
+</selector>

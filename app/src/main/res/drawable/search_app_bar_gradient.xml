@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient terbalik dengan rounded corners di bawah -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#FF4CAF50"
+                android:endColor="#FF2E7D32"
+                android:angle="135"/>
+            <corners
+                android:bottomLeftRadius="30dp"
+                android:bottomRightRadius="30dp"/>
+            <padding android:bottom="30dp"/> <!-- Untuk overflow rounded corner -->
+        </shape>
+    </item>
+</layer-list>

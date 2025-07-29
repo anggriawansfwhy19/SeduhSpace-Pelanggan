@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "995506820324",
+    "firebase_url": "https://seduh-space-app-mobile-default-rtdb.firebaseio.com/",
+    "project_id": "seduh-space-app-mobile",
+    "storage_bucket": "seduh-space-app-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995506820324:android:0f6a03caaef941d29fc8f1",
+        "android_client_info": {
+          "package_name": "com.anggriawan.adminseduhspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995506820324-4a67mr32cvvl41gu7m0l8qi8cqip6qi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuMuCTSv2snhgPgVDn3QQwfqDepfS-6cY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995506820324-4a67mr32cvvl41gu7m0l8qi8cqip6qi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995506820324:android:94478f21cfeae5689fc8f1",
+        "android_client_info": {
+          "package_name": "com.anggriawans.userseduhspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995506820324-4a67mr32cvvl41gu7m0l8qi8cqip6qi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuMuCTSv2snhgPgVDn3QQwfqDepfS-6cY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995506820324-4a67mr32cvvl41gu7m0l8qi8cqip6qi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

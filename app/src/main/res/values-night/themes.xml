@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.SeduhSpaceCoffee.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna latar -->
+        <item name="android:colorBackground">@color/blackPekat</item>
+        <item name="colorSurface">@color/seduh_green_dark</item>
+
+        <!-- Warna primer hijau -->
+        <item name="colorPrimary">@color/seduh_green_primary</item>
+        <item name="colorPrimaryVariant">@color/seduh_green_light</item>
+
+        <!-- Warna sekunder/aksen -->
+        <item name="colorSecondary">@color/seduh_mint</item>
+
+        <!-- Warna teks -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+
+        <!-- Warna status bar & navbar -->
+        <item name="android:statusBarColor">@color/blackPekat</item>
+        <item name="android:navigationBarColor">@color/blackPekat</item>
+        <item name="android:windowLightStatusBar">false</item> <!-- ikon terang -->
+    </style>
+
+    <style name="Theme.SeduhSpaceCoffee.Dark" parent="Base.Theme.SeduhSpaceCoffee.Dark" />
+</resources>

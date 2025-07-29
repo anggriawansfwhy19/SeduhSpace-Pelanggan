@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+  <!-- Outer bell shape with gradient -->
+  <path
+      android:pathData="M15,18C15,19.657 13.657,21 12,21C10.343,21 9,19.657 9,18M12.797,5.239C13.232,4.789 13.5,4.176 13.5,3.5C13.5,2.119 12.381,1 11,1C9.619,1 8.5,2.119 8.5,3.5C8.5,4.176 8.768,4.789 9.204,5.239M2.547,7.323C2.533,5.872 3.315,4.516 4.579,3.803M19.453,7.323C19.468,5.872 18.685,4.516 17.421,3.803M16,10.2C16,8.821 15.368,7.498 14.243,6.523C13.118,5.548 11.592,5 10,5C8.408,5 6.882,5.548 5.757,6.523C4.632,7.498 4,8.821 4,10.2C4,12.482 3.434,14.151 2.728,15.345C1.924,16.706 1.521,17.386 1.537,17.549C1.555,17.735 1.589,17.793 1.74,17.904C1.871,18 2.534,18 3.858,18H18.142C19.466,18 20.129,18 20.26,17.904C20.411,17.793 20.445,17.735 20.463,17.549C20.479,17.386 20.076,16.706 19.272,15.345C18.566,14.151 18,12.482 18,10.2Z"
+      android:fillColor="@color/seduh_green_primary"
+      android:strokeColor="@color/seduh_green_dark"
+      android:strokeWidth="0.5"
+      android:strokeLineJoin="round"
+      android:strokeLineCap="round"/>
+
+  <!-- Inner highlight for depth -->
+  <path
+      android:pathData="M16,10.2C16,8.821 15.368,7.498 14.243,6.523C13.118,5.548 11.592,5 10,5C8.408,5 6.882,5.548 5.757,6.523C4.632,7.498 4,8.821 4,10.2C4,12.482 3.434,14.151 2.728,15.345C1.924,16.706 1.521,17.386 1.537,17.549C1.555,17.735 1.589,17.793 1.74,17.904C1.871,18 2.534,18 3.858,18H18.142C19.466,18 20.129,18 20.26,17.904C20.411,17.793 20.445,17.735 20.463,17.549C20.479,17.386 20.076,16.706 19.272,15.345C18.566,14.151 18,12.482 18,10.2Z"
+      android:fillColor="#80FFFFFF"
+      android:strokeColor="#00000000"
+      android:strokeWidth="0.1"/>
+
+  <!-- Clapper detail -->
+  <path
+      android:pathData="M12,5L12,3"
+      android:strokeColor="@color/seduh_green_dark"
+      android:strokeWidth="1.5"
+      android:strokeLineCap="round"/>
+</vector>

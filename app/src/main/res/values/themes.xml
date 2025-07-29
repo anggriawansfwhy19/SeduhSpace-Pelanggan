@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SeduhSpaceCoffee" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/blackPekat</item>
+        <!-- Navbar color (optional, if needed) -->
+        <item name="android:navigationBarColor">@color/blackPekat</item>
+        <!-- Teks dan ikon di status bar berwarna terang -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Application Theme -->
+    <style name="Theme.SeduhSpaceCoffee" parent="Base.Theme.SeduhSpaceCoffee" />
+</resources>

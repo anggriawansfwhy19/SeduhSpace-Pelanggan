@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_getstarted">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Bukti Pembayaran"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="#333333"
+            android:gravity="center" />
+
+        <!-- Image Preview in CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <ImageView
+                android:id="@+id/uploadedImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:contentDescription="Uploaded Image"
+                android:background="@android:color/white"
+                android:padding="8dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Select Image Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/selectImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Gambar"
+            android:layout_marginTop="24dp"
+            app:cornerRadius="12dp"
+            android:iconTint="@color/white"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/BlueColor" />
+
+        <!-- Finish Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/finishButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selesai"
+            android:layout_marginTop="12dp"
+            app:cornerRadius="12dp"
+            android:enabled="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/grey" />
+    </LinearLayout>
+</ScrollView>

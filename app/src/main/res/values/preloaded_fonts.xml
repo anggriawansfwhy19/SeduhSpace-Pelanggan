@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aladin</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/barriecito</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_semibold</item>
+        <item>Poppins-Medium.ttf</item>
+        <item>Poppins-Bold.ttf</item>
+    </array>
+</resources>

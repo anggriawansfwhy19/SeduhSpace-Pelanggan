@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Seduh Space App</string>
+    <string name="next">Start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular">Menu Populer</string>
+    <string name="view_more">View All</string>
+    <string name="coffee_name">Coffee Name</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="explore_your_favorite_coffee">SEDUH SPACE</string>
+    <string name="search">SEARCH</string>
+    <string name="coffee_menu">Cari menu Kopi Favoritmu!</string>
+    <string name="buy_again">Buy</string>
+    <string name="address">Perumahan Cinity Jl.Cakalang 01 Blok cm 07 Desa Karang Raharja, Kecamatan Cikarang, Kab. Bekasi. Indonesia</string>
+    <string name="enjoy_coffeeshop_quality_meals_at_home">Enjoy CoffeeShop Quality Meals at Home</string>
+    <string name="seduh_space">SEDUH SPACE</string>
+    <string name="seduh_project">SEDUH SPACE</string>
+    <string name="congratulation_order">Congratulations your order\nhas been successful.\nHope you like our Coffee😊</string>
+    <string name="choose_location">Pilih Kota Anda</string>
+    <string name="default_web_client_id">995506820324-4a67mr32cvvl41gu7m0l8qi8cqip6qi5.apps.googleusercontent.com</string>
+    <string name="menu">Menu Lengkap</string>
+    <string name="google_maps_key">AIzaSyCuDXHIsjTJqOQFvx1mFS-kSyppwA1d7XE</string>
+    <string name="content_description_menu_image">Menu item image</string>
+    <string name="content_description_calorie_icon">Calorie icon</string>
+    <string name="menu_by_seduh_space">MENU BY SEDUH SPACE</string>
+    <string name="price_default">24.000</string>
+    <string name="add_to_carts">Add</string>
+    <string name="coffee_names">SEDUH SPACE</string>
+</resources>

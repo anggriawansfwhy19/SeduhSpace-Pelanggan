@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background dengan gradien dan bayangan -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#FF4CAF50"
+                android:endColor="#FF2E7D32"
+                android:angle="135"/>
+            <corners
+                android:topLeftRadius="30dp"
+                android:topRightRadius="30dp" />
+
+        </shape>
+    </item>
+
+
+
+
+    <!-- Wave design -->
+    <item android:top="-25dp">
+        <vector android:width="360dp"
+            android:height="40dp"
+            android:viewportWidth="360"
+            android:viewportHeight="40">
+            <path
+                android:pathData="M0,30 Q120,0 180,20 T360,20 L360,40 L0,40 Z"
+                android:fillColor="#FF4CAF50"/>
+        </vector>
+    </item>
+
+
+
+</layer-list>

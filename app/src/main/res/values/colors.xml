@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColor">#2F538A</color>
+    <color name="textColor2">#2D3D68</color>
+    <color name="grey">#C8C0C0</color>
+    <color name="searchColor">#98C2F4</color>
+    <color name="greyText">#7E7878</color>
+    <color name="red">#7C1A29</color>
+    <color name="green">#41FA44</color>
+    <color name="greenColor">#119513</color>
+    <color name="BlueColor">#ECC071</color>
+    <color name="blackPrimary">#9A131313</color>
+    <color name="brownPrimary">#9ABD7934</color>
+    <color name="blackPekat">#000000</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="primaryColor">#FF6F61</color> <!-- Warna utama -->
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="dividerColor">#EEEEEE</color>
+    <color name="cardBackground">#FAFAFA</color>
+    <color name="card_stroke_color">#10000000</color> <!-- subtle gray border -->
+    <color name="lightBackground">#FAFAFA</color>
+    <color name="textSecondary">#62000000</color>
+    <color name="priceColor">#FF5722</color>
+    <color name="statusPending">#FF0000</color>
+    <color name="statusCompleted">#4CAF50</color>
+    <!-- Warna Primer Hijau Coffee Seduh Space -->
+    <color name="seduh_green_primary">#2E7D32</color>  <!-- Hijau tua elegan -->
+    <color name="seduh_green_light">#81C784</color>    <!-- Hijau muda segar -->
+    <color name="seduh_green_dark">#1B5E20</color>    <!-- Hijau gelap premium -->
+    <!-- Warna Aksen -->
+    <color name="seduh_green_accent">#4CAF50</color>  <!-- Hijau cerah -->
+    <color name="seduh_mint">#A5D6A7</color>         <!-- Mint segar -->
+    <color name="seduh_forest">#388E3C</color>        <!-- Hijau hutan -->
+    <!-- Gradien untuk Card/Latar -->
+    <color name="seduh_gradient_start">#43A047</color>
+    <color name="seduh_gradient_end">#1B5E20</color>
+    <!-- Warna Text yang Cocok -->
+    <color name="text_on_green">#FFFFFF</color>       <!-- Putih untuk teks di atas hijau -->
+    <color name="text_green_dark">#1B5E20</color>    <!-- Hijau gelap untuk teks -->
+</resources>
